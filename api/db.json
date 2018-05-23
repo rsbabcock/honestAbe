@@ -1,0 +1,245 @@
+{
+    "politicians": [
+    {
+        "id": 1,
+        "name": "Luke Skywalker"
+    },
+    {
+        "id": 2,
+        "name": "Han Solo"
+    },
+    {
+        "id": 3,
+        "name": "Leia Organa"
+    },
+    {
+        "id": 4,
+        "name": "Obi Wan Kenobi"
+    },
+    {
+        "id": 5,
+        "name": "Darth Vader"
+    }
+],
+"interests": [
+    {
+        "id": 1,
+        "title": "Jedi Rights",
+        "description": "Support the rights of Jedi to have freedom"
+    },
+    {
+        "id": 2,
+        "title": "Free Republic",
+        "description": "Support a republic free of the first Order"
+    },
+    {
+        "id": 3,
+        "title": "The Rebellion",
+        "description": "The rebellion fights against tyranny"
+    },
+    {
+        "id": 4,
+        "title": "Abolish Slavery",
+        "description": "Slavery exists across the galaxy, it must be abolished to support freedom"
+    },
+    {
+        "id": 5,
+        "title": "Galaxy Domination",
+        "description": "Slavery exists across the galaxy, it must be continued"
+    }
+],
+"corporations": [
+    {
+        "id": 1,
+        "title": "Jedi INC"
+    },
+    {
+        "id": 2,
+        "title": "First Order INC"
+    },
+    {
+        "id": 3,
+        "title": "Shipbuilders Pro LLC"
+    },
+    {
+        "id": 4,
+        "title": "LightSabers-R-US INC"
+    },
+    {
+        "id": 5,
+        "title": "Slave Traders LLC"
+    }
+],
+"pacs": [
+    {
+        "id": 1,
+        "title": "Independents against Slavery",
+        "interestId": 4
+    },
+    {
+        "id": 2,
+        "title": "Supporters of the Rebellion",
+        "interestId": 3
+    },
+    {
+        "id": 3,
+        "title": "The Jedi",
+        "interestId": 1
+    },
+    {
+        "id": 4,
+        "title": "The Republic",
+        "interestId": 2
+    },
+    {
+        "id": 5,
+        "title": "First Order",
+        "interestId": 5
+    } 
+],
+"bills": [
+    {
+        "id": 1,
+        "title": "Save the Jedi Act",
+        "interestId": 1
+    },
+    {
+        "id": 2,
+        "title": "Rebellion Relief Bill",
+        "interestId": 3
+    },
+    {
+        "id": 3,
+        "title": "Freedom of the Republic Act",
+        "interestId": 2
+    },
+    {
+        "id": 4,
+        "title": "Abolition of Galactic SlaveTrade Act",
+        "interestId": 1
+    },
+    {
+        "id": 5,
+        "title": "Overturn Freedom Bill",
+        "interestId": 5
+    }  
+],
+"corporationInterests": [
+    {
+        "id": 1,
+        "corporationId": 2,
+        "interestId": 5
+    },
+    {
+        "id": 2,
+        "corporationId": 3,
+        "interestId": 5
+    },  
+    {
+        "id": 3,
+        "corporationId": 1,
+        "interestId": 1
+    },
+    {
+        "id": 4,
+        "corporationId": 4,
+        "interestId": 1
+    },
+    {
+        "id": 5,
+        "corporationId": 2,
+        "interestId": 5
+    },
+    {
+        "id": 6,
+        "corporationId": 5,
+        "interestId": 5
+    }
+],
+"donations": [
+    {
+        "id": 1,
+        "date": "5/15/18",
+        "corporationId": 1,
+        "interestId": 1
+    },
+    {
+        "id": 2,
+        "date": "5/16/18",
+        "corporationId": 2,
+        "interestId": 2
+    },
+    {
+        "id": 3,
+        "date": "5/16/18",
+        "corporationId": 3,
+        "interestId": 3
+    },
+    {
+        "id": 4,
+        "date": "5/16/18",
+        "corporationId": 4,
+        "interestId": 4
+    },
+    {
+        "id": 5,
+        "date": "5/16/18",
+        "corporationId": 5,
+        "interestId": 5
+    }
+],
+"politicianDonation": [
+    {
+        "id": 1,
+        "politicianId": 1,
+        "pacId": 1
+    },
+    {
+        "id": 2,
+        "politicianId": 2,
+        "pacId": 2
+    },
+    {
+        "id": 3,
+        "politicianId": 3,
+        "pacId": 3
+    },
+    {
+        "id": 4,
+        "politicianId": 4,
+        "pacId": 4
+    },
+    {
+        "id": 5,
+        "politicianId": 5,
+        "pacId": 5
+    }
+],
+"billPolitician": [
+    {
+        "id": 1,
+        "billId": 1,
+        "politicianId": 1
+    },
+    {
+        "id": 2,
+        "billId": 2,
+        "politicianId": 2
+    },
+    {
+        "id": 3,
+        "billId": 3,
+        "politicianId": 3
+    },
+    {
+        "id": 4,
+        "billId": 4,
+        "politicianId": 4
+    },
+    {
+        "id": 5,
+        "billId": 5,
+        "politicianId": 5
+    }
+]
+}
